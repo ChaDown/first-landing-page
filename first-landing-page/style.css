@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-button {
+.button {
   background-color: #3882f6;
   max-width: 30%;
   color: #f9faf8;
@@ -27,8 +27,12 @@ button {
   align-items: center;
 }
 
+.icon {
+  max-height: 20px;
+}
+
 .header-logo {
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .header-links {
@@ -107,4 +111,47 @@ button {
   padding: 100px;
   background-color: #e5e7eb;
   font-size: 20px;
+}
+
+.btn2 {
+  color: #e5e7eb;
+  border: #e5e7eb solid 3px;
+  background-color: #3882f6;
+  padding: 2px 20px;
+  border-radius: 5px;
+}
+
+.btn2:hover {
+  background-color: #e5e7eb;
+  color: #3882f6;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  margin: 80px 80px;
+  background-color: #3882f6;
+  border-radius: 10px;
+  color: white;
+}
+
+.p1 {
+  font-size: 16px;
+  font-weight: 800;
+  margin: 4px;
+}
+
+.p2 {
+  font-weight: 100;
+  margin: 4px;
+  font-size: 12px;
+}
+
+.footer {
+  background-color: #1d2f47;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 15px;
+  font-size: smaller;
 }
